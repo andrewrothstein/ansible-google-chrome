@@ -1,0 +1,3 @@
+---
+# vars file for google-chrome
+chrome_url : '{{chrome_mirror}}/{{chrome_rpm}}'

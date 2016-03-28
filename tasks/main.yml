@@ -1,0 +1,12 @@
+---
+# tasks file for google-chrome
+- name: download package...
+  get_url: >-
+    url={{chrome_url}}
+    dest=/tmp/{{chrome_rpm}}
+    owner=root
+    group=root
+    mode=644
+
+- name: install
+  package: name=/tmp/{{chrome_rpm}} state=present

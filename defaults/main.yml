@@ -1,0 +1,4 @@
+---
+# defaults file for google-chrome
+chrome_mirror: 'https://dl.google.com/linux/direct'
+chrome_rpm : 'google-chrome-stable_current_x86_64.rpm'
